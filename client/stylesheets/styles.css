@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://getwallpapers.com/wallpaper/full/b/2/6/145586.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-size:100%;
+}
+
+.logs {
+    color: white;
+}
+
+.everything {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.randomWorkouts {
+    
+    overflow: auto;
+    height: 500px;
+}
+
+.inputs {
+    
+    padding-left: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+}
+
+.libraryBtn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.random-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    margin: 10px;
+
+}
+
+#instructions {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    
+}
